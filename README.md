@@ -1,34 +1,26 @@
 # Regime Notes
 
-An exploratory series on volatility regimes across equities, metals, energy and crypto.
-Each part has a short public write-up on LinkedIn and a full working paper here.
+Exploratory working papers on volatility regimes across equities, metals, energy and crypto, written in 2026.
 
 **Read online:** https://edwinyeeshunwan.github.io/regime-notes/
 
-| Part | Paper | Subject | Short link |
-|---|---|---|---|
-| 1 | [The Dollar Illusion](papers/part1-dollar-illusion.pdf) | US Equities, Commodities and Bitcoin Re-Priced in Gold, 2000–2026 | [https://edwinyeeshunwan.github.io/regime-notes/p1](https://edwinyeeshunwan.github.io/regime-notes/p1) |
-| 2 | [Was It Worth the Risk?](papers/part2-worth-the-risk.pdf) | Volatility, Drawdown and Recovery in US Equities, Metals, Energy and Bitcoin | [https://edwinyeeshunwan.github.io/regime-notes/p2](https://edwinyeeshunwan.github.io/regime-notes/p2) |
-| 3 | [Conditional Risk](papers/part3-conditional-risk.pdf) | A Two-State Regime Model of Gold, US Equities and Oil, and What It Corrects in Part 2 | [https://edwinyeeshunwan.github.io/regime-notes/p3](https://edwinyeeshunwan.github.io/regime-notes/p3) |
-| 4 | [Regime-Dependent Correlation](papers/part4-regime-correlation.pdf) | Does Diversification Fail When It Matters, and Would It Change Anything? | [https://edwinyeeshunwan.github.io/regime-notes/p4](https://edwinyeeshunwan.github.io/regime-notes/p4) |
-| 5 | [Observable but Not Anticipable](papers/part5-observable-not-anticipable.pdf) | Leverage, Forced Liquidation and Cascade Clustering in Crypto Perpetual Futures | [https://edwinyeeshunwan.github.io/regime-notes/p5](https://edwinyeeshunwan.github.io/regime-notes/p5) |
-| 6 | [Directional Contagion Between Volatility Regimes](papers/part6-directional-contagion.pdf) | Equities, Commodities and Bitcoin | [https://edwinyeeshunwan.github.io/regime-notes/p6](https://edwinyeeshunwan.github.io/regime-notes/p6) |
+| Part | Paper | Subject |
+|---|---|---|
+| 1 | [The Dollar Illusion](papers/part1-dollar-illusion.pdf) | US equities, commodities and Bitcoin re-priced in gold, 2000–2026 |
+| 2 | [Was It Worth the Risk?](papers/part2-worth-the-risk.pdf) | Volatility, drawdown and recovery in US equities, metals, energy and Bitcoin |
+| 3 | [Conditional Risk](papers/part3-conditional-risk.pdf) | A two-state regime model of gold, US equities and oil, and what it corrects in Part 2 |
+| 4 | [Regime-Dependent Correlation](papers/part4-regime-correlation.pdf) | Does diversification fail when it matters, and would it change anything? |
+| 5 | [Observable but Not Anticipable](papers/part5-observable-not-anticipable.pdf) | Leverage, forced liquidation and cascade clustering in crypto perpetual futures |
+| 6 | [Directional Contagion Between Volatility Regimes](papers/part6-directional-contagion.pdf) | Equities, commodities and Bitcoin |
 
-## Layout
+Each paper sets out its data, method, robustness checks and limitations. Short links to each paper are at `/p1` to `/p6` on the site above.
 
-- `papers/` — the working papers (PDF). Method, robustness checks, limitations.
-- `carousels/` — the slides that accompanied each LinkedIn post.
-- `p1/` … `p6/` — short redirects to each paper, for linking.
+## Negative results
 
-## On negative results
+Several parts report findings that failed. Part 5's central hypothesis is a null, and the paper documents two data-provenance errors made during the work and the steps taken to prevent them recurring. They are reported because a series that only publishes what worked is not measuring anything.
 
-Several parts report findings that failed. Part 5's central hypothesis is a null, and
-the paper documents two data-provenance errors made during the work along with the
-procedures adopted to stop them recurring. They are published because a series that
-only reports what worked is not measuring anything.
+## Data and code
 
-## Disclaimer
+Daily closing prices from Yahoo Finance and, for crypto derivatives, exchange and vendor APIs. Sources and caveats are stated in each paper. Code is available on request.
 
-Exploratory working notes, not investment advice. Author's own analysis.
-Data from Yahoo Finance daily closes and, for crypto derivatives, exchange and vendor
-APIs; sources and caveats are stated in each paper.
+Exploratory working notes, not investment advice.
